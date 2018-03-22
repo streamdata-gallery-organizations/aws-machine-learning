@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateBatchPrediction&k=1:
+  /?Action=CreateBatchPrediction:
     get:
       summary: ' Create Batch Prediction '
       description: Generates predictions for a group of observations
