@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteRealtimeEndpoint&k=1:
+  /?Action=DeleteRealtimeEndpoint:
     get:
       summary: ' Delete Realtime Endpoint '
       description: Deletes a real time endpoint of an MLModel
