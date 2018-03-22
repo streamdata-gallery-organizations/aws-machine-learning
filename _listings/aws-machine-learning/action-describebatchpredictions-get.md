@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeBatchPredictions&k=1:
+  /?Action=DescribeBatchPredictions:
     get:
       summary: ' Describe Batch Predictions '
       description: Returns a list of BatchPrediction operations that match the search
