@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetBatchPrediction&k=1:
+  /?Action=GetBatchPrediction:
     get:
       summary: ' Get Batch Prediction '
       description: |-
