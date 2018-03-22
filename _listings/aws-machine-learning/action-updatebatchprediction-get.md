@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateBatchPrediction&k=1:
+  /?Action=UpdateBatchPrediction:
     get:
       summary: ' Update Batch Prediction '
       description: Updates the BatchPredictionName of a BatchPrediction
