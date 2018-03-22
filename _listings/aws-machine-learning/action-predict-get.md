@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=Predict&k=1:
+  /?Action=Predict:
     get:
       summary: ' Predict '
       description: Generates a prediction for the observation using the specified
