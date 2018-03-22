@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateRealtimeEndpoint&k=1:
+  /?Action=CreateRealtimeEndpoint:
     get:
       summary: ' Create Realtime Endpoint '
       description: Creates a real-time endpoint for the MLModel
