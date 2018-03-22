@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteBatchPrediction&k=1:
+  /?Action=DeleteBatchPrediction:
     get:
       summary: ' Delete Batch Prediction '
       description: Assigns the DELETED status to a BatchPrediction, rendering it unusable
