@@ -38,6 +38,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Tags
   /?Action=CreateBatchPrediction:
     get:
@@ -73,6 +74,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=CreateDataSourceFromRDS:
     get:
@@ -107,6 +109,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateDataSourceFromRedshift:
     get:
@@ -140,6 +143,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateDataSourceFromS3:
     get:
@@ -168,6 +172,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateEvaluation:
     get:
@@ -196,6 +201,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=CreateMLModel:
     get:
@@ -239,6 +245,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=CreateRealtimeEndpoint:
     get:
@@ -255,6 +262,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Real Time
   /?Action=DeleteBatchPrediction:
     get:
@@ -271,6 +279,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=DeleteDataSource:
     get:
@@ -287,6 +296,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=DeleteEvaluation:
     get:
@@ -304,6 +314,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=DeleteMLModel:
     get:
@@ -320,6 +331,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=DeleteRealtimeEndpoint:
     get:
@@ -336,6 +348,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Real Time
   /?Action=DeleteTags:
     get:
@@ -360,6 +373,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Tags
   /?Action=DescribeBatchPredictions:
     get:
@@ -419,6 +433,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=DescribeDataSources:
     get:
@@ -478,6 +493,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=DescribeEvaluations:
     get:
@@ -538,6 +554,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=DescribeMLModels:
     get:
@@ -597,6 +614,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=DescribeTags:
     get:
@@ -617,6 +635,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Real Time
   /?Action=GetBatchPrediction:
     get:
@@ -635,6 +654,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
 x-streamrank:
   polling_total_time_average: 0

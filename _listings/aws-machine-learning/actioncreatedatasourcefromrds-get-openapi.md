@@ -36,6 +36,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Tags
   /?Action=CreateBatchPrediction:
     get:
@@ -71,6 +72,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=CreateDataSourceFromRDS:
     get:
@@ -105,6 +107,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
 x-streamrank:
   polling_total_time_average: 0

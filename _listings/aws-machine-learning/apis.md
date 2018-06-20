@@ -18,10 +18,10 @@ description: Amazon Machine Learning is a service that makes it easy for develop
   go, so you can start small and scale as your application grows.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS Machine Learning
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/apis.md
 specificationVersion: "0.14"
 apis:
@@ -31,7 +31,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=AddTags
-  tags: Tags
+  tags: Machine Learning,Tags
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actionaddtags-get-openapi.md
@@ -41,7 +41,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateBatchPrediction
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actioncreatebatchprediction-get-openapi.md
@@ -51,7 +51,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateDataSourceFromRDS
-  tags: Data Sources
+  tags: Machine Learning,Data Sources
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actioncreatedatasourcefromrds-get-openapi.md
@@ -61,7 +61,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateDataSourceFromRedshift
-  tags: Data Sources
+  tags: Machine Learning,Data Sources
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actioncreatedatasourcefromredshift-get-openapi.md
@@ -71,7 +71,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateDataSourceFromS3
-  tags: Data Sources
+  tags: Machine Learning,Data Sources
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actioncreatedatasourcefroms3-get-openapi.md
@@ -81,7 +81,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateEvaluation
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actioncreateevaluation-get-openapi.md
@@ -93,7 +93,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateMLModel
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actioncreatemlmodel-get-openapi.md
@@ -103,7 +103,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateRealtimeEndpoint
-  tags: Real Time
+  tags: Machine Learning,Real Time
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actioncreaterealtimeendpoint-get-openapi.md
@@ -113,7 +113,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteBatchPrediction
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondeletebatchprediction-get-openapi.md
@@ -123,7 +123,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteDataSource
-  tags: Data Sources
+  tags: Machine Learning,Data Sources
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondeletedatasource-get-openapi.md
@@ -133,7 +133,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteEvaluation
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondeleteevaluation-get-openapi.md
@@ -143,7 +143,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteMLModel
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondeletemlmodel-get-openapi.md
@@ -153,7 +153,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteRealtimeEndpoint
-  tags: Real Time
+  tags: Machine Learning,Real Time
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondeleterealtimeendpoint-get-openapi.md
@@ -163,7 +163,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteTags
-  tags: Tags
+  tags: Machine Learning,Tags
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondeletetags-get-openapi.md
@@ -174,7 +174,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DescribeBatchPredictions
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondescribebatchpredictions-get-openapi.md
@@ -185,7 +185,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DescribeDataSources
-  tags: Data Sources
+  tags: Machine Learning,Data Sources
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondescribedatasources-get-openapi.md
@@ -196,7 +196,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DescribeEvaluations
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondescribeevaluations-get-openapi.md
@@ -206,7 +206,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DescribeMLModels
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondescribemlmodels-get-openapi.md
@@ -216,7 +216,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DescribeTags
-  tags: Real Time
+  tags: Machine Learning,Real Time
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiondescribetags-get-openapi.md
@@ -228,7 +228,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=GetBatchPrediction
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiongetbatchprediction-get-openapi.md
@@ -239,7 +239,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=GetDataSource
-  tags: Data Sources
+  tags: Machine Learning,Data Sources
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiongetdatasource-get-openapi.md
@@ -250,7 +250,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=GetEvaluation
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiongetevaluation-get-openapi.md
@@ -261,7 +261,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=GetMLModel
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actiongetmlmodel-get-openapi.md
@@ -271,7 +271,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=Predict
-  tags: Predict
+  tags: Machine Learning,Predict
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actionpredict-get-postman.md
@@ -283,7 +283,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=UpdateBatchPrediction
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actionupdatebatchprediction-get-openapi.md
@@ -293,7 +293,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=UpdateDataSource
-  tags: Data Sources
+  tags: Machine Learning,Data Sources
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actionupdatedatasource-get-openapi.md
@@ -303,7 +303,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=UpdateEvaluation
-  tags: Evaluations
+  tags: Machine Learning,Evaluations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actionupdateevaluation-get-openapi.md
@@ -313,7 +313,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=UpdateMLModel
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-machine-learning/master/_listings/aws-machine-learning/actionupdatemlmodel-get-openapi.md

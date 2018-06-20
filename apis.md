@@ -5,7 +5,7 @@ description: This is a repository of aws machine learning APIs, self-contained a
   operations.
 image: http://template.streamdata.gallery/assets/aws-machine-learning.png
 created: "2018-02-24"
-modified: "2018-05-24"
+modified: "2018-06-20"
 url: http://aws-machine-learning.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []

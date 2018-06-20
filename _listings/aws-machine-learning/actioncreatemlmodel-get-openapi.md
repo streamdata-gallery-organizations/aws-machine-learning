@@ -38,6 +38,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Tags
   /?Action=CreateBatchPrediction:
     get:
@@ -73,6 +74,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=CreateDataSourceFromRDS:
     get:
@@ -107,6 +109,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateDataSourceFromRedshift:
     get:
@@ -140,6 +143,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateDataSourceFromS3:
     get:
@@ -168,6 +172,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateEvaluation:
     get:
@@ -196,6 +201,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=CreateMLModel:
     get:
@@ -239,6 +245,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
 x-streamrank:
   polling_total_time_average: 0

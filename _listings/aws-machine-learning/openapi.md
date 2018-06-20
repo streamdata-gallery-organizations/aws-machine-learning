@@ -35,6 +35,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Tags
   /?Action=CreateBatchPrediction:
     get:
@@ -70,6 +71,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=CreateDataSourceFromRDS:
     get:
@@ -104,6 +106,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateDataSourceFromRedshift:
     get:
@@ -137,6 +140,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateDataSourceFromS3:
     get:
@@ -165,6 +169,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=CreateEvaluation:
     get:
@@ -193,6 +198,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=CreateMLModel:
     get:
@@ -236,6 +242,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=CreateRealtimeEndpoint:
     get:
@@ -252,6 +259,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Real Time
   /?Action=DeleteBatchPrediction:
     get:
@@ -268,6 +276,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=DeleteDataSource:
     get:
@@ -284,6 +293,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=DeleteEvaluation:
     get:
@@ -301,6 +311,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=DeleteMLModel:
     get:
@@ -317,6 +328,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=DeleteRealtimeEndpoint:
     get:
@@ -333,6 +345,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Real Time
   /?Action=DeleteTags:
     get:
@@ -357,6 +370,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Tags
   /?Action=DescribeBatchPredictions:
     get:
@@ -416,6 +430,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=DescribeDataSources:
     get:
@@ -475,6 +490,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=DescribeEvaluations:
     get:
@@ -535,6 +551,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=DescribeMLModels:
     get:
@@ -594,6 +611,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=DescribeTags:
     get:
@@ -614,6 +632,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Real Time
   /?Action=GetBatchPrediction:
     get:
@@ -632,6 +651,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=GetDataSource:
     get:
@@ -653,6 +673,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=GetEvaluation:
     get:
@@ -670,6 +691,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=GetMLModel:
     get:
@@ -691,6 +713,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=Predict:
     get:
@@ -716,6 +739,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Predict
   /?Action=UpdateBatchPrediction:
     get:
@@ -736,6 +760,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
   /?Action=UpdateDataSource:
     get:
@@ -757,6 +782,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Data Sources
   /?Action=UpdateEvaluation:
     get:
@@ -778,6 +804,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Evaluations
   /?Action=UpdateMLModel:
     get:
@@ -803,5 +830,6 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
 ---
